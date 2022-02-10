@@ -1,0 +1,18 @@
+body{
+    background: #000;
+}
+.border{
+    background-color: hsl(0deg 0% 29%);
+    border-radius: 10px;
+    padding: 5px;
+    margin-right:10px;
+}
+header{
+    display: flex;
+    color: aliceblue;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
