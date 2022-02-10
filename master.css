@@ -1,18 +1,50 @@
-body{
-    background: #000;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* utility */
 .border{
     background-color: hsl(0deg 0% 29%);
     border-radius: 10px;
     padding: 5px;
-    margin-right:10px;
+    margin:7px;
 }
+.flex{
+    display: flex; 
+}
+/* /utility */
+/*                            text                         */
+body{
+    background: #000;
+}
+/* header */
 header{
+    margin-bottom: 1%;
     display: flex;
     color: aliceblue;
 }
-.flex{
-    width: 100%;
-    display: flex;
+nav{
+    width: 100%; 
     justify-content: flex-end;
 }
+/* /header */
+
+/* main */
+.conteiner{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    border: 1px solid red;
+    color: red;
+}
+
+
+/* /main */
+
+
+
+/* footer */
+
+/* /footer */
