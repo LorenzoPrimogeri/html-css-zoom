@@ -8,12 +8,6 @@
 .t-white{
     color: white;
 }
-.border{
-    background-color: hsl(0deg 0% 29%);
-    border-radius: 10px;
-    padding: 5px;
-    margin:7px;
-}
 .flex{
     display: flex; 
 }
@@ -40,7 +34,13 @@ header{
 nav{
     width: 100%; 
     justify-content: flex-end;
-   height: 43%;
+}
+.border{
+    background-color: hsl(0deg 0% 29%);
+    border-radius: 10px;
+    padding: 5px;
+    margin:7px;
+    height: 43%;
 }
 /* /header */
 
