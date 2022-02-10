@@ -23,6 +23,7 @@
 /* /utility */
 /*                            text                         */
 body{
+    overflow-y: hidden;
     background: #000;
 }
 /* header */
